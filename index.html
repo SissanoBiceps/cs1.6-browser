@@ -135,7 +135,7 @@
 
             try {
                 updateStatus("Fetching game assets...");
-                const res = await fetch('https://raw.githubusercontent.com/SissanoBiceps/cs1.6-browser/refs/tags/v1.0.0/valve.zip');
+                const res = await fetch('https://raw.githubusercontent.com/SissanoBiceps/cs1.6-browser/refs/tags/v1.0.1/valve');
                 const buffer = await res.arrayBuffer();
 
                 updateStatus("Extracting game files...");
